@@ -4,8 +4,8 @@ Progress of a private rewrite of LEGO Star Wars: The Complete Saga (PC) in Rust 
 
 Live page: https://drket.github.io/tcs-progress/
 
-Ported (in-scope code, by bytes): 18.6%
+Ported (in-scope code, by bytes): 18.7%
 
 ![progress](progress.png)
 
-Generated 2026-10-10T00:49:18Z from private repo commit `0ba3a6f` by `tools/progress/publish.py`.
+Generated 2026-10-10T03:02:43Z from private repo commit `0b52403` by `tools/progress/publish.py`.
