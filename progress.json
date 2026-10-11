@@ -1,18 +1,18 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-11T04:50:28Z",
-  "built": "2026-10-11T04:50:33Z",
+  "exported": "2026-10-11T04:54:07Z",
+  "built": "2026-10-11T04:54:07Z",
   "git": {
-   "sha": "1e7c63d",
-   "branch": "pc-accuracy-map"
+   "sha": "5c9e065",
+   "branch": "pc-accuracy"
   },
-  "ghidra_function_count": 9098,
+  "ghidra_function_count": 9103,
   "external_count": 194,
   "estimated": 14,
   "scanned": {
    "rs_files": 373,
-   "maps": 49,
+   "maps": 48,
    "cites_in_data": 199
   },
   "engine_kinds": {
@@ -25,12 +25,12 @@
  },
  "summary": {
   "total": {
-   "count": 8904,
-   "bytes": 2595879
+   "count": 8909,
+   "bytes": 2596363
   },
   "scope": {
-   "count": 7877,
-   "bytes": 2379983
+   "count": 7882,
+   "bytes": 2380465
   },
   "by_status": {
    "unmapped": {
@@ -42,8 +42,8 @@
     "bytes": 813345
    },
    "mapped": {
-    "count": 2993,
-    "bytes": 811835
+    "count": 2998,
+    "bytes": 812317
    },
    "ported": {
     "count": 809,
@@ -55,48 +55,48 @@
    },
    "engine": {
     "count": 1027,
-    "bytes": 215896
+    "bytes": 215898
    }
   },
   "mapped": {
-   "count": 4161,
-   "bytes": 1384157,
-   "pct_count": 52.82467944648978,
-   "pct_bytes": 58.15827255908971
+   "count": 4166,
+   "bytes": 1384639,
+   "pct_count": 52.85460543009388,
+   "pct_bytes": 58.16674473264677
   },
   "ported": {
    "count": 1168,
    "bytes": 572322,
-   "pct_count": 14.827980195505903,
-   "pct_bytes": 24.047314623675884
+   "pct_count": 14.818573965998478,
+   "pct_bytes": 24.042445488591515
   },
   "confirmed": {
    "count": 359,
    "bytes": 227073,
-   "pct_count": 4.557572679954298,
-   "pct_bytes": 9.540950502587624
+   "pct_count": 4.554681552905354,
+   "pct_bytes": 9.539018637115017
   },
   "triaged": {
    "count": 3348,
    "bytes": 813345,
-   "pct_count": 42.50349117684397,
-   "pct_bytes": 34.17440376674959
+   "pct_count": 42.47652879979701,
+   "pct_bytes": 34.167484083991994
   },
   "engine": {
    "count": 1027,
-   "bytes": 215896,
-   "pct_count": 11.534141958670261,
-   "pct_bytes": 8.316874553860176
+   "bytes": 215898,
+   "pct_count": 11.527668649680098,
+   "pct_bytes": 8.315401197752394
   }
  },
  "summary_negotiations": {
   "total": {
-   "count": 5977,
-   "bytes": 1884407
+   "count": 5963,
+   "bytes": 1880836
   },
   "scope": {
-   "count": 5948,
-   "bytes": 1875440
+   "count": 5934,
+   "bytes": 1871869
   },
   "by_status": {
    "unmapped": {
@@ -108,8 +108,8 @@
     "bytes": 469964
    },
    "mapped": {
-    "count": 2819,
-    "bytes": 738647
+    "count": 2805,
+    "bytes": 735076
    },
    "ported": {
     "count": 804,
@@ -125,43 +125,43 @@
    }
   },
   "mapped": {
-   "count": 3981,
-   "bytes": 1292804,
-   "pct_count": 66.93006052454606,
-   "pct_bytes": 68.93337030243569
+   "count": 3967,
+   "bytes": 1289233,
+   "pct_count": 66.8520390967307,
+   "pct_bytes": 68.87410390363856
   },
   "ported": {
    "count": 1162,
    "bytes": 554157,
-   "pct_count": 19.5359784801614,
-   "pct_bytes": 29.548106044448236
+   "pct_count": 19.582069430401077,
+   "pct_bytes": 29.604475526866462
   },
   "confirmed": {
    "count": 358,
    "bytes": 212665,
-   "pct_count": 6.018829858776059,
-   "pct_bytes": 11.339472337158213
+   "pct_count": 6.033029996629592,
+   "pct_bytes": 11.361104863641634
   },
   "triaged": {
    "count": 1679,
    "bytes": 469964,
-   "pct_count": 28.227975790181574,
-   "pct_bytes": 25.058866186068336
+   "pct_count": 28.294573643410853,
+   "pct_bytes": 25.106671460449423
   },
   "engine": {
    "count": 29,
    "bytes": 8967,
-   "pct_count": 0.4851932407562322,
-   "pct_bytes": 0.4758526157035078
+   "pct_count": 0.4863323830286768,
+   "pct_bytes": 0.47675608080662
   }
  },
  "negotiations_roots": {
   "roots": 457,
   "closure": 1479,
-  "map_functions": 5851,
-  "map_rows": 8081,
-  "map_rows_excluded": 401,
-  "functions": 5977,
+  "map_functions": 5837,
+  "map_rows": 8066,
+  "map_rows_excluded": 400,
+  "functions": 5963,
   "has_callees": true
  },
  "groups": [
@@ -492,13 +492,6 @@
    "label": "Text and fonts",
    "kind": "sys",
    "doc": "docs/map/text-fonts.md",
-   "confirmed": false
-  },
-  {
-   "id": "sys:vader",
-   "label": "Darth Vader",
-   "kind": "sys",
-   "doc": "docs/map/vader.md",
    "confirmed": false
   },
   {
