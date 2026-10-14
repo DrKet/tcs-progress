@@ -1,17 +1,17 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-14T01:18:59Z",
-  "built": "2026-10-14T01:19:00Z",
+  "exported": "2026-10-14T04:59:42Z",
+  "built": "2026-10-14T04:59:43Z",
   "git": {
-   "sha": "eb279af",
-   "branch": "pc-accuracy-map"
+   "sha": "e4ddd25",
+   "branch": "pc-accuracy"
   },
   "ghidra_function_count": 9239,
   "external_count": 194,
   "estimated": 14,
   "scanned": {
-   "rs_files": 373,
+   "rs_files": 378,
    "maps": 67,
    "cites_in_data": 199
   },
@@ -42,16 +42,16 @@
     "bytes": 799195
    },
    "mapped": {
-    "count": 3231,
-    "bytes": 875095
+    "count": 3220,
+    "bytes": 866561
    },
    "ported": {
-    "count": 810,
-    "bytes": 345297
+    "count": 820,
+    "bytes": 353616
    },
    "confirmed": {
-    "count": 358,
-    "bytes": 227025
+    "count": 359,
+    "bytes": 227240
    },
    "engine": {
     "count": 1027,
@@ -65,16 +65,16 @@
    "pct_bytes": 60.241671397487146
   },
   "ported": {
-   "count": 1168,
-   "bytes": 572322,
-   "pct_count": 14.567223746570217,
-   "pct_bytes": 23.820111175668544
+   "count": 1179,
+   "bytes": 580856,
+   "pct_count": 14.704415066101273,
+   "pct_bytes": 24.175297292527855
   },
   "confirmed": {
-   "count": 358,
-   "bytes": 227025,
-   "pct_count": 4.464953853828885,
-   "pct_bytes": 9.448808082960555
+   "count": 359,
+   "bytes": 227240,
+   "pct_count": 4.477425791968072,
+   "pct_bytes": 9.45775640908251
   },
   "triaged": {
    "count": 3293,
@@ -108,16 +108,16 @@
     "bytes": 468526
    },
    "mapped": {
-    "count": 3043,
-    "bytes": 792323
+    "count": 3032,
+    "bytes": 783789
    },
    "ported": {
-    "count": 805,
-    "bytes": 341540
+    "count": 815,
+    "bytes": 349859
    },
    "confirmed": {
-    "count": 357,
-    "bytes": 212617
+    "count": 358,
+    "bytes": 212832
    },
    "engine": {
     "count": 29,
@@ -131,16 +131,16 @@
    "pct_bytes": 70.40937397214644
   },
   "ported": {
-   "count": 1162,
-   "bytes": 554157,
-   "pct_count": 18.906605922551254,
-   "pct_bytes": 28.977665804380873
+   "count": 1173,
+   "bytes": 562691,
+   "pct_count": 19.085584119752685,
+   "pct_bytes": 29.42392092698076
   },
   "confirmed": {
-   "count": 357,
-   "bytes": 212617,
-   "pct_count": 5.808656036446469,
-   "pct_bytes": 11.118048441741326
+   "count": 358,
+   "bytes": 212832,
+   "pct_count": 5.8249267816465995,
+   "pct_bytes": 11.129291100677227
   },
   "triaged": {
    "count": 1687,
