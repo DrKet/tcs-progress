@@ -1,10 +1,10 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-15T00:44:31Z",
-  "built": "2026-10-15T00:44:32Z",
+  "exported": "2026-10-15T00:53:50Z",
+  "built": "2026-10-15T00:53:51Z",
   "git": {
-   "sha": "2191848",
+   "sha": "0f27b8f",
    "branch": "pc-accuracy-map"
   },
   "ghidra_function_count": 9239,
@@ -34,16 +34,16 @@
   },
   "by_status": {
    "unmapped": {
-    "count": 315,
-    "bytes": 152712
+    "count": 311,
+    "bytes": 152206
    },
    "triaged": {
     "count": 3267,
     "bytes": 793133
    },
    "mapped": {
-    "count": 3249,
-    "bytes": 873709
+    "count": 3253,
+    "bytes": 874215
    },
    "ported": {
     "count": 825,
@@ -59,10 +59,10 @@
    }
   },
   "mapped": {
-   "count": 4436,
-   "bytes": 1456839,
-   "pct_count": 55.32551758543278,
-   "pct_bytes": 60.6338161822362
+   "count": 4440,
+   "bytes": 1457345,
+   "pct_count": 55.37540533798953,
+   "pct_bytes": 60.65487596371391
   },
   "ported": {
    "count": 1187,
@@ -100,16 +100,16 @@
   },
   "by_status": {
    "unmapped": {
-    "count": 243,
-    "bytes": 93993
+    "count": 239,
+    "bytes": 93487
    },
    "triaged": {
     "count": 1679,
     "bytes": 467796
    },
    "mapped": {
-    "count": 3061,
-    "bytes": 790937
+    "count": 3065,
+    "bytes": 791443
    },
    "ported": {
     "count": 820,
@@ -125,10 +125,10 @@
    }
   },
   "mapped": {
-   "count": 4242,
-   "bytes": 1355902,
-   "pct_count": 68.81894873458793,
-   "pct_bytes": 70.7049258717906
+   "count": 4246,
+   "bytes": 1356408,
+   "pct_count": 68.88384166125893,
+   "pct_bytes": 70.7313117702487
   },
   "ported": {
    "count": 1181,
@@ -158,8 +158,8 @@
  "negotiations_roots": {
   "roots": 457,
   "closure": 1479,
-  "map_functions": 6069,
-  "map_rows": 8302,
+  "map_functions": 6071,
+  "map_rows": 8305,
   "map_rows_excluded": 401,
   "functions": 6193,
   "has_callees": true
@@ -755,7 +755,6 @@
   "docs/map/blowup-debris.md: 0x00545760 is listed but still named FUN_00545760 in Ghidra",
   "docs/map/blowup-debris.md: 0x0054c030 is listed but still named FUN_0054c030 in Ghidra",
   "docs/map/blowup-debris.md: 0x00550330 is listed but still named FUN_00550330 in Ghidra",
-  "docs/map/blowup-debris.md: 0x00552760 is listed but still named FUN_00552760 in Ghidra",
   "docs/map/blowup-debris.md: 0x0056ca60 is listed but still named FUN_0056ca60 in Ghidra",
   "docs/map/blowup-debris.md: 0x0056cc00 is listed but still named FUN_0056cc00 in Ghidra",
   "docs/map/blowup-debris.md: 0x00580ca0 is listed but still named FUN_00580ca0 in Ghidra",
@@ -768,7 +767,6 @@
   "docs/map/blowup-debris.md: 0x005afc50 is listed but still named FUN_005afc50 in Ghidra",
   "docs/map/blowup-debris.md: 0x005c1240 is listed but still named FUN_005c1240 in Ghidra",
   "docs/map/blowup-debris.md: 0x005e66b0 is listed but still named FUN_005e66b0 in Ghidra",
-  "docs/map/blowup-debris.md: 0x005f3390 is listed but still named FUN_005f3390 in Ghidra",
   "docs/map/blowup-debris.md: 0x005f9550 is listed but still named FUN_005f9550 in Ghidra",
   "docs/map/blowup-debris.md: 0x005f9740 is listed but still named FUN_005f9740 in Ghidra",
   "docs/map/blowup-debris.md: 0x00634920 is listed but still named FUN_00634920 in Ghidra",
@@ -786,7 +784,6 @@
   "docs/map/blowup-debris.md: 0x005d5500 is listed but still named FUN_005d5500 in Ghidra",
   "docs/map/blowup-debris.md: 0x005d6710 is listed but still named FUN_005d6710 in Ghidra",
   "docs/map/blowup-debris.md: 0x005d8950 is listed but still named FUN_005d8950 in Ghidra",
-  "docs/map/blowup-debris.md: 0x005ea390 is listed but still named FUN_005ea390 in Ghidra",
   "docs/map/blowup-debris.md: 0x005ec620 is listed but still named FUN_005ec620 in Ghidra",
   "docs/map/blowup-debris.md: 0x005f5e30 is listed but still named FUN_005f5e30 in Ghidra",
   "docs/map/blowup-debris.md: 0x005fa330 is listed but still named FUN_005fa330 in Ghidra",
@@ -1021,7 +1018,6 @@
   "docs/map/doors-sections.md: 0x005cfef0 is listed but still named FUN_005cfef0 in Ghidra",
   "docs/map/doors-sections.md: 0x005cff50 is listed but still named FUN_005cff50 in Ghidra",
   "docs/map/doors-sections.md: 0x005ea570 is listed but still named FUN_005ea570 in Ghidra",
-  "docs/map/doors-sections.md: 0x005ea660 is listed but still named FUN_005ea660 in Ghidra",
   "docs/map/doors-sections.md: 0x004f3e20 is listed but still named T_Sys_FrameTick (a T_ triage guess) in Ghidra",
   "docs/map/doors-sections.md: 0x004fd050 is listed but still named T_Game_EndFrameTiming (a T_ triage guess) in Ghidra",
   "docs/map/doors-sections.md: 0x0065f4d0 is listed but still named T_Nop_Empty65F4D0 (a T_ triage guess) in Ghidra",
@@ -2168,6 +2164,8 @@
   "docs/map/scene-draw.md: 0x00602550 is listed but still named T_Scene_FinishLoadDlist (a T_ triage guess) in Ghidra",
   "docs/map/scene-draw.md: 0x005c0350 is listed but still named T_Math_D3DX_MatrixMultiplyArray (a T_ triage guess) in Ghidra",
   "docs/map/scene-draw.md: 0x005bc2b0 is listed but still named T_Math_CubicBasis_EvalScalar (a T_ triage guess) in Ghidra",
+  "docs/map/scene-draw.md: 0x005ce350 is listed but still named T_Anim4_SampleFrameToBuffer (a T_ triage guess) in Ghidra",
+  "docs/map/scene-draw.md: 0x005ca830 is listed but still named T_Anim4_DecodePackedKeyLerp (a T_ triage guess) in Ghidra",
   "docs/map/sound.md: 0x00694930 is listed but still named T_Music_LoadAlbum (a T_ triage guess) in Ghidra",
   "docs/map/sound.md: 0x00696d00 is listed but still named T_Sound_InitDirectSound (a T_ triage guess) in Ghidra",
   "docs/map/sound.md: 0x00650280 is listed but still named T_Str_InitCrcTable (a T_ triage guess) in Ghidra",
