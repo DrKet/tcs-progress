@@ -1,11 +1,11 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-15T01:29:38Z",
-  "built": "2026-10-15T01:29:39Z",
+  "exported": "2026-10-15T02:03:53Z",
+  "built": "2026-10-15T02:03:53Z",
   "git": {
-   "sha": "df6b626",
-   "branch": "pc-accuracy"
+   "sha": "389f02a",
+   "branch": "pc-accuracy-map"
   },
   "ghidra_function_count": 9239,
   "external_count": 194,
@@ -34,16 +34,16 @@
   },
   "by_status": {
    "unmapped": {
-    "count": 311,
-    "bytes": 152206
+    "count": 310,
+    "bytes": 151735
    },
    "triaged": {
     "count": 3267,
     "bytes": 793133
    },
    "mapped": {
-    "count": 3253,
-    "bytes": 874215
+    "count": 3254,
+    "bytes": 874686
    },
    "ported": {
     "count": 825,
@@ -59,10 +59,10 @@
    }
   },
   "mapped": {
-   "count": 4440,
-   "bytes": 1457345,
-   "pct_count": 55.37540533798953,
-   "pct_bytes": 60.65487596371391
+   "count": 4441,
+   "bytes": 1457816,
+   "pct_count": 55.38787727612871,
+   "pct_bytes": 60.67447904093922
   },
   "ported": {
    "count": 1187,
@@ -100,16 +100,16 @@
   },
   "by_status": {
    "unmapped": {
-    "count": 239,
-    "bytes": 93487
+    "count": 238,
+    "bytes": 93016
    },
    "triaged": {
     "count": 1679,
     "bytes": 467796
    },
    "mapped": {
-    "count": 3065,
-    "bytes": 791443
+    "count": 3066,
+    "bytes": 791914
    },
    "ported": {
     "count": 820,
@@ -125,10 +125,10 @@
    }
   },
   "mapped": {
-   "count": 4246,
-   "bytes": 1356408,
-   "pct_count": 68.88384166125893,
-   "pct_bytes": 70.7313117702487
+   "count": 4247,
+   "bytes": 1356879,
+   "pct_count": 68.90006489292666,
+   "pct_bytes": 70.75587255715337
   },
   "ported": {
    "count": 1181,
@@ -158,9 +158,9 @@
  "negotiations_roots": {
   "roots": 457,
   "closure": 1479,
-  "map_functions": 6071,
-  "map_rows": 8305,
-  "map_rows_excluded": 401,
+  "map_functions": 6073,
+  "map_rows": 8306,
+  "map_rows_excluded": 400,
   "functions": 6193,
   "has_callees": true
  },
@@ -1093,7 +1093,6 @@
   "docs/map/enemy-partner-ai.md: 0x005f5ee0 is listed but still named FUN_005f5ee0 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x005f6ab0 is listed but still named FUN_005f6ab0 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x00600f20 is listed but still named FUN_00600f20 in Ghidra",
-  "docs/map/enemy-partner-ai.md: 0x00601030 is listed but still named FUN_00601030 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x00604c50 is listed but still named FUN_00604c50 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x00631440 is listed but still named FUN_00631440 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x006323a0 is listed but still named FUN_006323a0 in Ghidra",
