@@ -1,10 +1,10 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-17T18:45:10Z",
-  "built": "2026-10-17T18:45:11Z",
+  "exported": "2026-10-17T19:30:07Z",
+  "built": "2026-10-17T19:30:08Z",
   "git": {
-   "sha": "7e7e86e",
+   "sha": "e2c2274",
    "branch": "pc-accuracy"
   },
   "ghidra_function_count": 9239,
@@ -91,29 +91,29 @@
  },
  "summary_negotiations": {
   "total": {
-   "count": 6194,
-   "bytes": 1926740
+   "count": 6219,
+   "bytes": 1937388
   },
   "scope": {
-   "count": 6165,
-   "bytes": 1919341
+   "count": 6190,
+   "bytes": 1929989
   },
   "by_status": {
    "unmapped": {
-    "count": 232,
-    "bytes": 91238
+    "count": 234,
+    "bytes": 94467
    },
    "triaged": {
-    "count": 1536,
-    "bytes": 431916
+    "count": 1557,
+    "bytes": 439197
    },
    "mapped": {
     "count": 2402,
     "bytes": 593025
    },
    "ported": {
-    "count": 1539,
-    "bytes": 560870
+    "count": 1541,
+    "bytes": 561008
    },
    "confirmed": {
     "count": 456,
@@ -125,43 +125,43 @@
    }
   },
   "mapped": {
-   "count": 4397,
-   "bytes": 1396187,
-   "pct_count": 71.3219789132198,
-   "pct_bytes": 72.74304044982105
+   "count": 4399,
+   "bytes": 1396325,
+   "pct_count": 71.06623586429725,
+   "pct_bytes": 72.34885794685877
   },
   "ported": {
-   "count": 1995,
-   "bytes": 803162,
-   "pct_count": 32.360097323600975,
-   "pct_bytes": 41.845716837185265
+   "count": 1997,
+   "bytes": 803300,
+   "pct_count": 32.26171243941842,
+   "pct_bytes": 41.621998881858914
   },
   "confirmed": {
    "count": 456,
    "bytes": 242292,
-   "pct_count": 7.396593673965937,
-   "pct_bytes": 12.623707824716922
+   "pct_count": 7.366720516962843,
+   "pct_bytes": 12.554061188949781
   },
   "triaged": {
-   "count": 1536,
-   "bytes": 431916,
-   "pct_count": 24.91484184914842,
-   "pct_bytes": 22.503348805657776
+   "count": 1557,
+   "bytes": 439197,
+   "pct_count": 25.153473344103393,
+   "pct_bytes": 22.756450943502788
   },
   "engine": {
    "count": 29,
    "bytes": 7399,
-   "pct_count": 0.4681950274459154,
-   "pct_bytes": 0.3840165253225656
+   "pct_count": 0.4663129120437369,
+   "pct_bytes": 0.3819059475954223
   }
  },
  "negotiations_roots": {
   "roots": 457,
   "closure": 1481,
-  "map_functions": 6073,
-  "map_rows": 8306,
-  "map_rows_excluded": 400,
-  "functions": 6194,
+  "map_functions": 6098,
+  "map_rows": 8329,
+  "map_rows_excluded": 398,
+  "functions": 6219,
   "has_callees": true
  },
  "groups": [
@@ -751,9 +751,7 @@
   "docs/map/blowup-debris.md: 0x004c7b20 is listed but still named FUN_004c7b20 in Ghidra",
   "docs/map/blowup-debris.md: 0x004d3620 is listed but still named FUN_004d3620 in Ghidra",
   "docs/map/blowup-debris.md: 0x004edfe0 is listed but still named FUN_004edfe0 in Ghidra",
-  "docs/map/blowup-debris.md: 0x00501640 is listed but still named FUN_00501640 in Ghidra",
   "docs/map/blowup-debris.md: 0x00545760 is listed but still named FUN_00545760 in Ghidra",
-  "docs/map/blowup-debris.md: 0x0054c030 is listed but still named FUN_0054c030 in Ghidra",
   "docs/map/blowup-debris.md: 0x00550330 is listed but still named FUN_00550330 in Ghidra",
   "docs/map/blowup-debris.md: 0x0056ca60 is listed but still named FUN_0056ca60 in Ghidra",
   "docs/map/blowup-debris.md: 0x0056cc00 is listed but still named FUN_0056cc00 in Ghidra",
@@ -968,6 +966,19 @@
   "docs/map/cutscenes.md: 0x00503770 is listed but still named T_Scene_UpdateEventNodeFlags (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x00507d80 is listed but still named T_Scene_UpdateNodesAndDispatch (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x00507c50 is listed but still named T_Scene_DispatchNodeByType (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00501f60 is listed but still named T_Scene_BindAnimInstances (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00502020 is listed but still named T_Scene_BindPendingAnimInstances (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00501640 is listed but still named FUN_00501640 in Ghidra",
+  "docs/map/cutscenes.md: 0x00507f20 is listed but still named FUN_00507f20 in Ghidra",
+  "docs/map/cutscenes.md: 0x00508d50 is listed but still named T_Scene_PostUpdateInstance (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00508c30 is listed but still named T_Scene_DispatchInstanceNodes (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00502390 is listed but still named T_Anim_EvalNodeMatrixWithScale (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00502260 is listed but still named T_Anim_BuildNodeMatrixSimple (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x004fffb0 is listed but still named T_Mat_Copy4x4_4fffb0 (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00501240 is listed but still named T_Scene_FindNodeTypeByName (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00501d40 is listed but still named T_Anim_StopNodeSoundEmitter (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x00502c30 is listed but still named T_Scene_CallNodeCbC (a T_ triage guess) in Ghidra",
+  "docs/map/cutscenes.md: 0x005036a0 is listed but still named T_Scene_LinkEventsToNodes (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x00550830 is listed but still named T_Math_CamDistanceFalloff (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x00595660 is listed but still named T_Render_DrawModelWithLights (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x005958b0 is listed but still named T_Render_SetDefaultView (a T_ triage guess) in Ghidra",
@@ -1066,14 +1077,12 @@
   "docs/map/enemy-partner-ai.md: 0x00479710 is listed but still named FUN_00479710 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x0047ab00 is listed but still named FUN_0047ab00 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x0047cdd0 is listed but still named FUN_0047cdd0 in Ghidra",
-  "docs/map/enemy-partner-ai.md: 0x00485b70 is listed but still named FUN_00485b70 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x004a89f0 is listed but still named FUN_004a89f0 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x004bd090 is listed but still named FUN_004bd090 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x004effb0 is listed but still named FUN_004effb0 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x004f0cb0 is listed but still named FUN_004f0cb0 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x004fb960 is listed but still named FUN_004fb960 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x004fbb40 is listed but still named FUN_004fbb40 in Ghidra",
-  "docs/map/enemy-partner-ai.md: 0x0054c0c0 is listed but still named FUN_0054c0c0 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x00565820 is listed but still named FUN_00565820 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x0057e720 is listed but still named FUN_0057e720 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x00592820 is listed but still named FUN_00592820 in Ghidra",
@@ -1338,6 +1347,18 @@
   "docs/map/menus-save.md: 0x00543c10 is listed but still named T_Save_WriteSlotDefault (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x00543cf0 is listed but still named T_Save_DeleteSlotFileQuiet (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x006dd8c0 is listed but still named T_Platform_BuildGameSettingsFolder (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x00482f10 is listed but still named T_Hud_NoteActiveAwardSlot (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x00485030 is listed but still named T_Hud_DrawTwoCharIcons (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x0045e430 is listed but still named T_Hud_GetElementFade (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x004851b0 is listed but still named T_Hud_DrawMinikitIconsAnim (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x00485b70 is listed but still named FUN_00485b70 in Ghidra",
+  "docs/map/menus-save.md: 0x00594810 is listed but still named T_Chars_GetListEntryFields (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x0045fc50 is listed but still named T_Hud_DrawCollectCountPanel (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x0045e56a is listed but still named T_Hud_UpdateTrueJediBarFill (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x0045910e is listed but still named T_Hud_StepTrueJediBar (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x00482c70 is listed but still named T_Mat_RotateInPlaceXCopy3 (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x00482d50 is listed but still named T_Mat_RotateInPlaceYCopy2 (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x00482e30 is listed but still named T_Mat_RotateInPlaceZCopy2 (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x004642e0 is listed but still named T_Hud_RegisterElementType2 (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x0045e2e0 is listed but still named T_Hud_RegisterElementType (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x0055f1a0 is listed but still named T_Players_BothActive (a T_ triage guess) in Ghidra",
@@ -1368,6 +1389,10 @@
   "docs/map/menus-save.md: 0x006dfda0 is listed but still named T_Render_GetGlobal297ae2c (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x006dfdb0 is listed but still named T_Render_GetGlobal297ae28 (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x0048da50 is listed but still named T_Level_RegisterAllLevelCallbacks (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x0054c030 is listed but still named FUN_0054c030 in Ghidra",
+  "docs/map/menus-save.md: 0x0054c0c0 is listed but still named FUN_0054c0c0 in Ghidra",
+  "docs/map/menus-save.md: 0x00564af0 is listed but still named FUN_00564af0 in Ghidra",
+  "docs/map/menus-save.md: 0x00564a20 is listed but still named T_Scene_FindBallAnims (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x0042abf0 is listed but still named T_Game_ResetStateForNewGame (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x005735a0 is listed but still named T_Level_NextUnlockedInChapter (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x0055c560 is listed but still named T_Game_ExitPause (a T_ triage guess) in Ghidra",
@@ -2118,10 +2143,8 @@
   "docs/map/scene-draw.md: 0x004c5020 is listed but still named FUN_004c5020 in Ghidra",
   "docs/map/scene-draw.md: 0x004c5300 is listed but still named FUN_004c5300 in Ghidra",
   "docs/map/scene-draw.md: 0x004c8030 is listed but still named FUN_004c8030 in Ghidra",
-  "docs/map/scene-draw.md: 0x00507f20 is listed but still named FUN_00507f20 in Ghidra",
   "docs/map/scene-draw.md: 0x0054d820 is listed but still named FUN_0054d820 in Ghidra",
   "docs/map/scene-draw.md: 0x00564500 is listed but still named FUN_00564500 in Ghidra",
-  "docs/map/scene-draw.md: 0x00564af0 is listed but still named FUN_00564af0 in Ghidra",
   "docs/map/scene-draw.md: 0x00552820 is listed but still named T_Anim_GetNormalisedProgress (a T_ triage guess) in Ghidra",
   "docs/map/scene-draw.md: 0x005b5430 is listed but still named FUN_005b5430 in Ghidra",
   "docs/map/scene-draw.md: 0x005c5750 is listed but still named FUN_005c5750 in Ghidra",
