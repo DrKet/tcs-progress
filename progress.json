@@ -1,10 +1,10 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-17T19:30:07Z",
-  "built": "2026-10-17T19:30:08Z",
+  "exported": "2026-10-17T20:02:47Z",
+  "built": "2026-10-17T20:02:48Z",
   "git": {
-   "sha": "e2c2274",
+   "sha": "e18e06e",
    "branch": "pc-accuracy"
   },
   "ghidra_function_count": 9239,
@@ -91,12 +91,12 @@
  },
  "summary_negotiations": {
   "total": {
-   "count": 6219,
-   "bytes": 1937388
+   "count": 6222,
+   "bytes": 1937940
   },
   "scope": {
-   "count": 6190,
-   "bytes": 1929989
+   "count": 6193,
+   "bytes": 1930541
   },
   "by_status": {
    "unmapped": {
@@ -104,8 +104,8 @@
     "bytes": 94467
    },
    "triaged": {
-    "count": 1557,
-    "bytes": 439197
+    "count": 1560,
+    "bytes": 439749
    },
    "mapped": {
     "count": 2402,
@@ -127,41 +127,41 @@
   "mapped": {
    "count": 4399,
    "bytes": 1396325,
-   "pct_count": 71.06623586429725,
-   "pct_bytes": 72.34885794685877
+   "pct_count": 71.03181010818666,
+   "pct_bytes": 72.3281712224708
   },
   "ported": {
    "count": 1997,
    "bytes": 803300,
-   "pct_count": 32.26171243941842,
-   "pct_bytes": 41.621998881858914
+   "pct_count": 32.246084288713064,
+   "pct_bytes": 41.6100978948388
   },
   "confirmed": {
    "count": 456,
    "bytes": 242292,
-   "pct_count": 7.366720516962843,
-   "pct_bytes": 12.554061188949781
+   "pct_count": 7.363151945745196,
+   "pct_bytes": 12.550471603555687
   },
   "triaged": {
-   "count": 1557,
-   "bytes": 439197,
-   "pct_count": 25.153473344103393,
-   "pct_bytes": 22.756450943502788
+   "count": 1560,
+   "bytes": 439749,
+   "pct_count": 25.18973034070725,
+   "pct_bytes": 22.778537207963986
   },
   "engine": {
    "count": 29,
    "bytes": 7399,
-   "pct_count": 0.4663129120437369,
-   "pct_bytes": 0.3819059475954223
+   "pct_count": 0.46608807457409196,
+   "pct_bytes": 0.3817971660629328
   }
  },
  "negotiations_roots": {
   "roots": 457,
   "closure": 1481,
-  "map_functions": 6098,
-  "map_rows": 8329,
+  "map_functions": 6101,
+  "map_rows": 8332,
   "map_rows_excluded": 398,
-  "functions": 6219,
+  "functions": 6222,
   "has_callees": true
  },
  "groups": [
@@ -1435,6 +1435,10 @@
   "docs/map/menus-save.md: 0x0055f430 is listed but still named T_Level_ClearSpareWorld (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x00564780 is listed but still named T_Cam_ResetSway (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x005661f0 is listed but still named T_Render_DrawLoadingBackdropFrame (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x00509660 is listed but still named T_Menu_SetColourConfig (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x0050f740 is listed but still named T_Menu_DrawItemLine (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x0050d1c0 is listed but still named T_Hud_TextPrintShadowFont (a T_ triage guess) in Ghidra",
+  "docs/map/menus-save.md: 0x0050f3b0 is listed but still named T_Menu_TextBoxWithShadow (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x00576670 is listed but still named T_Hint_ClearAllFlags (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x0058a8d0 is listed but still named T_Mission_Reset (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x00593810 is listed but still named T_Chars_CopyPartTable (a T_ triage guess) in Ghidra",
@@ -1617,7 +1621,6 @@
   "docs/map/red-bricks.md: 0x00572ad0 is listed but still named T_Nop_Empty572AD0 (a T_ triage guess) in Ghidra",
   "docs/map/red-bricks.md: 0x004fc860 is listed but still named T_Parser_OpenFileByName (a T_ triage guess) in Ghidra",
   "docs/map/red-bricks.md: 0x00509ab0 is listed but still named T_Menu_CloseTop (a T_ triage guess) in Ghidra",
-  "docs/map/red-bricks.md: 0x0050f740 is listed but still named T_Menu_DrawItemLine (a T_ triage guess) in Ghidra",
   "docs/map/render-device.md: 0x006009c0 is listed but still named T_Render_EndPrimBatchB (a T_ triage guess) in Ghidra",
   "docs/map/render-device.md: 0x00603290 is listed but still named T_Render_BuildGammaLut256 (a T_ triage guess) in Ghidra",
   "docs/map/render-device.md: 0x00603580 is listed but still named T_Dlist_EmitViewportMatrix (a T_ triage guess) in Ghidra",
