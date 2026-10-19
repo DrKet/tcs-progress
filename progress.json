@@ -1,10 +1,10 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-19T17:27:02Z",
-  "built": "2026-10-19T17:27:03Z",
+  "exported": "2026-10-19T20:58:49Z",
+  "built": "2026-10-19T20:58:51Z",
   "git": {
-   "sha": "2f99774",
+   "sha": "8ca4683",
    "branch": "pc-accuracy"
   },
   "ghidra_function_count": 9239,
@@ -13,7 +13,7 @@
   "scanned": {
    "rs_files": 477,
    "maps": 67,
-   "cites_in_data": 308
+   "cites_in_data": 309
   },
   "engine_kinds": {
    "crt": "C runtime and linked libraries",
@@ -38,20 +38,20 @@
     "bytes": 144469
    },
    "triaged": {
-    "count": 3076,
-    "bytes": 742888
+    "count": 3074,
+    "bytes": 741446
    },
    "mapped": {
-    "count": 2567,
-    "bytes": 656037
+    "count": 2564,
+    "bytes": 655823
    },
    "ported": {
-    "count": 1616,
-    "bytes": 598147
+    "count": 1620,
+    "bytes": 598540
    },
    "confirmed": {
-    "count": 465,
-    "bytes": 266948
+    "count": 466,
+    "bytes": 268211
    },
    "engine": {
     "count": 1025,
@@ -59,28 +59,28 @@
    }
   },
   "mapped": {
-   "count": 4648,
-   "bytes": 1521132,
-   "pct_count": 57.95511221945137,
-   "pct_bytes": 63.157108045749844
+   "count": 4650,
+   "bytes": 1522574,
+   "pct_count": 57.98004987531172,
+   "pct_bytes": 63.21697960837687
   },
   "ported": {
-   "count": 2081,
-   "bytes": 865095,
-   "pct_count": 25.947630922693268,
-   "pct_bytes": 35.918577996411855
+   "count": 2086,
+   "bytes": 866751,
+   "pct_count": 26.00997506234414,
+   "pct_bytes": 35.98733479787535
   },
   "confirmed": {
-   "count": 465,
-   "bytes": 266948,
-   "pct_count": 5.798004987531172,
-   "pct_bytes": 11.083629611760735
+   "count": 466,
+   "bytes": 268211,
+   "pct_count": 5.8104738154613464,
+   "pct_bytes": 11.13606912881894
   },
   "triaged": {
-   "count": 3076,
-   "bytes": 742888,
-   "pct_count": 38.35411471321696,
-   "pct_bytes": 30.844566863290634
+   "count": 3074,
+   "bytes": 741446,
+   "pct_count": 38.32917705735661,
+   "pct_bytes": 30.78469530066361
   },
   "engine": {
    "count": 1025,
@@ -104,20 +104,20 @@
     "bytes": 88979
    },
    "triaged": {
-    "count": 1526,
-    "bytes": 428320
+    "count": 1524,
+    "bytes": 426878
    },
    "mapped": {
-    "count": 2388,
-    "bytes": 585429
+    "count": 2385,
+    "bytes": 585215
    },
    "ported": {
-    "count": 1594,
-    "bytes": 583946
+    "count": 1598,
+    "bytes": 584339
    },
    "confirmed": {
-    "count": 459,
-    "bytes": 243867
+    "count": 460,
+    "bytes": 245130
    },
    "engine": {
     "count": 29,
@@ -125,28 +125,28 @@
    }
   },
   "mapped": {
-   "count": 4441,
-   "bytes": 1413242,
-   "pct_count": 71.70999515582109,
-   "pct_bytes": 73.20445408825816
+   "count": 4443,
+   "bytes": 1414684,
+   "pct_count": 71.74228968189892,
+   "pct_bytes": 73.27914817659921
   },
   "ported": {
-   "count": 2053,
-   "bytes": 827813,
-   "pct_count": 33.150331018892295,
-   "pct_bytes": 42.87984559768479
+   "count": 2058,
+   "bytes": 829469,
+   "pct_count": 33.23106733408687,
+   "pct_bytes": 42.965624661688096
   },
   "confirmed": {
-   "count": 459,
-   "bytes": 243867,
-   "pct_count": 7.411593734861941,
-   "pct_bytes": 12.632054952471872
+   "count": 460,
+   "bytes": 245130,
+   "pct_count": 7.427740997900856,
+   "pct_bytes": 12.697477028459899
   },
   "triaged": {
-   "count": 1526,
-   "bytes": 428320,
-   "pct_count": 24.640723397384143,
-   "pct_bytes": 22.186526989066795
+   "count": 1524,
+   "bytes": 426878,
+   "pct_count": 24.608428871306312,
+   "pct_bytes": 22.111832900725755
   },
   "engine": {
    "count": 29,
