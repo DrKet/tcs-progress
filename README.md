@@ -8,4 +8,4 @@ Ported (in-scope code, by bytes): 36.1%
 
 ![progress](progress.png)
 
-Generated 2026-10-20T10:59:38Z from private repo commit `2429966` by `tools/progress/publish.py`.
+Generated 2026-10-20T18:22:45Z from private repo commit `c7aeff2` by `tools/progress/publish.py`.
