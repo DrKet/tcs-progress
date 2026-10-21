@@ -1,19 +1,19 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-21T05:25:20Z",
-  "built": "2026-10-21T05:25:21Z",
+  "exported": "2026-10-21T22:13:11Z",
+  "built": "2026-10-21T22:13:12Z",
   "git": {
-   "sha": "08dd205",
-   "branch": "pc-accuracy"
+   "sha": "4f98660",
+   "branch": "pc-accuracy-map"
   },
-  "ghidra_function_count": 9239,
+  "ghidra_function_count": 9244,
   "external_count": 194,
   "estimated": 14,
   "scanned": {
    "rs_files": 479,
-   "maps": 67,
-   "cites_in_data": 323
+   "maps": 68,
+   "cites_in_data": 319
   },
   "engine_kinds": {
    "crt": "C runtime and linked libraries",
@@ -25,29 +25,29 @@
  },
  "summary": {
   "total": {
-   "count": 9045,
-   "bytes": 2618598
+   "count": 9050,
+   "bytes": 2623805
   },
   "scope": {
-   "count": 8020,
-   "bytes": 2408489
+   "count": 8025,
+   "bytes": 2413692
   },
   "by_status": {
    "unmapped": {
-    "count": 296,
-    "bytes": 144469
+    "count": 295,
+    "bytes": 144352
    },
    "triaged": {
     "count": 3067,
     "bytes": 737329
    },
    "mapped": {
-    "count": 2561,
-    "bytes": 654300
+    "count": 2566,
+    "bytes": 654978
    },
    "ported": {
-    "count": 1630,
-    "bytes": 604180
+    "count": 1631,
+    "bytes": 608822
    },
    "confirmed": {
     "count": 466,
@@ -55,113 +55,113 @@
    },
    "engine": {
     "count": 1025,
-    "bytes": 210109
+    "bytes": 210113
    }
   },
   "mapped": {
-   "count": 4657,
-   "bytes": 1526691,
-   "pct_count": 58.067331670822945,
-   "pct_bytes": 63.387916656459716
+   "count": 4663,
+   "bytes": 1532011,
+   "pct_count": 58.10591900311527,
+   "pct_bytes": 63.47168569974959
   },
   "ported": {
-   "count": 2096,
-   "bytes": 872391,
-   "pct_count": 26.134663341645886,
-   "pct_bytes": 36.22150651300463
+   "count": 2097,
+   "bytes": 877033,
+   "pct_count": 26.130841121495326,
+   "pct_bytes": 36.335746234399416
   },
   "confirmed": {
    "count": 466,
    "bytes": 268211,
-   "pct_count": 5.8104738154613464,
-   "pct_bytes": 11.13606912881894
+   "pct_count": 5.806853582554517,
+   "pct_bytes": 11.112064008166742
   },
   "triaged": {
    "count": 3067,
    "bytes": 737329,
-   "pct_count": 38.241895261845386,
-   "pct_bytes": 30.613758252580766
+   "pct_count": 38.218068535825545,
+   "pct_bytes": 30.547766657883443
   },
   "engine": {
    "count": 1025,
-   "bytes": 210109,
-   "pct_count": 11.332227750138198,
-   "pct_bytes": 8.02372109044611
+   "bytes": 210113,
+   "pct_count": 11.32596685082873,
+   "pct_bytes": 8.007950285939694
   }
  },
  "summary_negotiations": {
   "total": {
-   "count": 6222,
-   "bytes": 1937940
+   "count": 6240,
+   "bytes": 1948872
   },
   "scope": {
-   "count": 6193,
-   "bytes": 1930541
+   "count": 6201,
+   "bytes": 1940640
   },
   "by_status": {
    "unmapped": {
-    "count": 226,
-    "bytes": 88979
+    "count": 225,
+    "bytes": 88862
    },
    "triaged": {
-    "count": 1522,
-    "bytes": 424045
+    "count": 1524,
+    "bytes": 424786
    },
    "mapped": {
-    "count": 2382,
-    "bytes": 583692
+    "count": 2387,
+    "bytes": 584370
    },
    "ported": {
-    "count": 1603,
-    "bytes": 588695
+    "count": 1605,
+    "bytes": 597492
    },
    "confirmed": {
     "count": 460,
     "bytes": 245130
    },
    "engine": {
-    "count": 29,
-    "bytes": 7399
+    "count": 39,
+    "bytes": 8232
    }
   },
   "mapped": {
-   "count": 4445,
-   "bytes": 1417517,
-   "pct_count": 71.77458420797674,
-   "pct_bytes": 73.42589460674495
+   "count": 4452,
+   "bytes": 1426992,
+   "pct_count": 71.7948717948718,
+   "pct_bytes": 73.53203067029433
   },
   "ported": {
-   "count": 2063,
-   "bytes": 833825,
-   "pct_count": 33.311803649281444,
-   "pct_bytes": 43.191260895262005
+   "count": 2065,
+   "bytes": 842622,
+   "pct_count": 33.30108047089179,
+   "pct_bytes": 43.419799653722485
   },
   "confirmed": {
    "count": 460,
    "bytes": 245130,
-   "pct_count": 7.427740997900856,
-   "pct_bytes": 12.697477028459899
+   "pct_count": 7.418158361554588,
+   "pct_bytes": 12.631399950531783
   },
   "triaged": {
-   "count": 1522,
-   "bytes": 424045,
-   "pct_count": 24.576134345228486,
-   "pct_bytes": 21.965086470580008
+   "count": 1524,
+   "bytes": 424786,
+   "pct_count": 24.576681180454766,
+   "pct_bytes": 21.888964465331025
   },
   "engine": {
-   "count": 29,
-   "bytes": 7399,
-   "pct_count": 0.46608807457409196,
-   "pct_bytes": 0.3817971660629328
+   "count": 39,
+   "bytes": 8232,
+   "pct_count": 0.625,
+   "pct_bytes": 0.4223981872590914
   }
  },
  "negotiations_roots": {
   "roots": 457,
   "closure": 1481,
-  "map_functions": 6101,
-  "map_rows": 8332,
-  "map_rows_excluded": 398,
-  "functions": 6222,
+  "map_functions": 6120,
+  "map_rows": 8353,
+  "map_rows_excluded": 399,
+  "functions": 6240,
   "has_callees": true
  },
  "groups": [
@@ -457,6 +457,13 @@
    "label": "level logic",
    "kind": "sys",
    "doc": "docs/map/level-logic.md",
+   "confirmed": false
+  },
+  {
+   "id": "sys:lighting-stage",
+   "label": "the lighting stage",
+   "kind": "sys",
+   "doc": "docs/map/lighting-stage.md",
    "confirmed": false
   },
   {
@@ -1310,6 +1317,9 @@
   "docs/map/level-logic.md: 0x004713e0 is listed but still named T_GizGrabber_Release (a T_ triage guess) in Ghidra",
   "docs/map/level-logic.md: 0x00470e60 is listed but still named T_GizGrabber_UpdateHeldObject (a T_ triage guess) in Ghidra",
   "docs/map/level-logic.md: 0x005a0f10 is listed but still named T_GameAnimSet_IsIdleOrAtEnd (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x0060aff0 is listed but still named T_Render_BeginFrame (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006026a0 is listed but still named T_Scene_ReleaseDlistBuffers (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x0062f330 is listed but still named T_Anim_ApplyRootMotionDelta (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x006de0e0 is listed but still named T_Platform_WinMainBody (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x006dcf30 is listed but still named T_Platform_ParseCommandLine (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x00401100 is listed but still named T_Game_InitStartupFlags (a T_ triage guess) in Ghidra",
@@ -2160,7 +2170,6 @@
   "docs/map/scene-draw.md: 0x005f3270 is listed but still named FUN_005f3270 in Ghidra",
   "docs/map/scene-draw.md: 0x005fcfd0 is listed but still named FUN_005fcfd0 in Ghidra",
   "docs/map/scene-draw.md: 0x005fe970 is listed but still named FUN_005fe970 in Ghidra",
-  "docs/map/scene-draw.md: 0x006034b0 is listed but still named FUN_006034b0 in Ghidra",
   "docs/map/scene-draw.md: 0x005c12f0 is listed but still named FUN_005c12f0 in Ghidra",
   "docs/map/scene-draw.md: 0x005c60a0 is listed but still named FUN_005c60a0 in Ghidra",
   "docs/map/scene-draw.md: 0x005c6dc0 is listed but still named FUN_005c6dc0 in Ghidra",
