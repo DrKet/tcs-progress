@@ -1,11 +1,11 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-24T18:41:41Z",
-  "built": "2026-10-24T18:41:42Z",
+  "exported": "2026-10-24T20:54:15Z",
+  "built": "2026-10-24T20:54:16Z",
   "git": {
-   "sha": "89d3f48",
-   "branch": "pc-accuracy-map"
+   "sha": "107daac",
+   "branch": "pc-accuracy"
   },
   "ghidra_function_count": 9246,
   "external_count": 194,
@@ -29,8 +29,8 @@
    "bytes": 2623942
   },
   "scope": {
-   "count": 8028,
-   "bytes": 2413911
+   "count": 8029,
+   "bytes": 2413998
   },
   "by_status": {
    "unmapped": {
@@ -38,55 +38,55 @@
     "bytes": 144352
    },
    "triaged": {
-    "count": 3066,
-    "bytes": 737146
+    "count": 3065,
+    "bytes": 736881
    },
    "mapped": {
     "count": 2561,
     "bytes": 653774
    },
    "ported": {
-    "count": 1640,
-    "bytes": 610428
+    "count": 1642,
+    "bytes": 610780
    },
    "confirmed": {
     "count": 466,
     "bytes": 268211
    },
    "engine": {
-    "count": 1024,
-    "bytes": 210031
+    "count": 1023,
+    "bytes": 209944
    }
   },
   "mapped": {
-   "count": 4667,
-   "bytes": 1532413,
-   "pct_count": 58.134030891878425,
-   "pct_bytes": 63.482580757948405
+   "count": 4669,
+   "bytes": 1532765,
+   "pct_count": 58.15170008718396,
+   "pct_bytes": 63.49487447794074
   },
   "ported": {
-   "count": 2106,
-   "bytes": 878639,
-   "pct_count": 26.233183856502244,
-   "pct_bytes": 36.398980741212085
+   "count": 2108,
+   "bytes": 878991,
+   "pct_count": 26.254826254826256,
+   "pct_bytes": 36.412250548674855
   },
   "confirmed": {
    "count": 466,
    "bytes": 268211,
-   "pct_count": 5.804683607374191,
-   "pct_bytes": 11.111055875713728
+   "pct_count": 5.8039606426703205,
+   "pct_bytes": 11.110655435505747
   },
   "triaged": {
-   "count": 3066,
-   "bytes": 737146,
-   "pct_count": 38.191330343796714,
-   "pct_bytes": 30.53741417972742
+   "count": 3065,
+   "bytes": 736881,
+   "pct_count": 38.17411881928011,
+   "pct_bytes": 30.525335977908846
   },
   "engine": {
-   "count": 1024,
-   "bytes": 210031,
-   "pct_count": 11.312417145382236,
-   "pct_bytes": 8.004407109608367
+   "count": 1023,
+   "bytes": 209944,
+   "pct_count": 11.301369863013699,
+   "pct_bytes": 8.001091487540503
   }
  },
  "summary_negotiations": {
@@ -95,8 +95,8 @@
    "bytes": 1949283
   },
   "scope": {
-   "count": 6204,
-   "bytes": 1940859
+   "count": 6205,
+   "bytes": 1940946
   },
   "by_status": {
    "unmapped": {
@@ -104,55 +104,55 @@
     "bytes": 88862
    },
    "triaged": {
-    "count": 1523,
-    "bytes": 424603
+    "count": 1522,
+    "bytes": 424338
    },
    "mapped": {
     "count": 2382,
     "bytes": 583166
    },
    "ported": {
-    "count": 1614,
-    "bytes": 599098
+    "count": 1616,
+    "bytes": 599450
    },
    "confirmed": {
     "count": 460,
     "bytes": 245130
    },
    "engine": {
-    "count": 39,
-    "bytes": 8424
+    "count": 38,
+    "bytes": 8337
    }
   },
   "mapped": {
-   "count": 4456,
-   "bytes": 1427394,
-   "pct_count": 71.82462927143779,
-   "pct_bytes": 73.54444604167536
+   "count": 4458,
+   "bytes": 1427746,
+   "pct_count": 71.84528605962933,
+   "pct_bytes": 73.55928500844433
   },
   "ported": {
-   "count": 2074,
-   "bytes": 844228,
-   "pct_count": 33.43004513217279,
-   "pct_bytes": 43.49764717581236
+   "count": 2076,
+   "bytes": 844580,
+   "pct_count": 33.45688960515713,
+   "pct_bytes": 43.513832945378184
   },
   "confirmed": {
    "count": 460,
    "bytes": 245130,
-   "pct_count": 7.414571244358479,
-   "pct_bytes": 12.629974665856716
+   "pct_count": 7.413376309427881,
+   "pct_bytes": 12.629408546141933
   },
   "triaged": {
-   "count": 1523,
-   "bytes": 424603,
-   "pct_count": 24.548678272082526,
-   "pct_bytes": 21.877065773453918
+   "count": 1522,
+   "bytes": 424338,
+   "pct_count": 24.528605962933117,
+   "pct_bytes": 21.862432030566538
   },
   "engine": {
-   "count": 39,
-   "bytes": 8424,
-   "pct_count": 0.624699663623258,
-   "pct_bytes": 0.4321589015037837
+   "count": 38,
+   "bytes": 8337,
+   "pct_count": 0.608681723530354,
+   "pct_bytes": 0.42769572196546113
   }
  },
  "negotiations_roots": {
@@ -163,6 +163,32 @@
   "map_rows_excluded": 399,
   "functions": 6243,
   "has_callees": true
+ },
+ "levels": {
+  "_comment": "The level-level headline of the page and the README (build.py copies this block into progress.json). Curated by hand: change it only with the evidence named here. A level is listed as playing end to end when it can be played from its start to its status screen in the rewrite, checked by the owner's hand test and by the windowed smoke runs on every build; it does not mean pixel-exact.",
+  "total": 36,
+  "total_what": "story chapters",
+  "playable": [
+   {
+    "name": "Negotiations",
+    "where": "Episode I, chapter 1",
+    "modes": "Story and Free Play",
+    "evidence": "the owner's hand tests (a Free Play 100% run with every minikit, the red brick and True Jedi, 2026-10-21); the windowed smoke runs of the Story start, each section, a door, the outro and Free Play on every build (scripts/test-all)"
+   }
+  ],
+  "meaning": "The percentages count functions of the PC exe that carry a PC 0x... cite in the Rust rewrite (ported) or are named in Ghidra (mapped). They do not measure how close the picture or the feel is. The engine layer that Bevy replaces is only partly recognised, so part of the unported share is code that is replaced rather than missing.",
+  "gaps": [
+   "The Phong specular highlight (one exe function, FUN_00741690, is not mapped yet).",
+   "Section C's directional lightmaps (their textures are not mapped).",
+   "Blending is done on display values like the PC's, but in a float buffer, not the PC's 8-bit back buffer.",
+   "The doubled vertex colour is taken from reference footage; where the exe does it is not found yet.",
+   "The figures' lights use the section's light block, not the figures' own light query."
+  ],
+  "next": [
+   "The owner's hand test of the lighting work (one colour pipeline for the whole frame).",
+   "Mapping what is still open in Negotiations: where the exe doubles vertex colours, the figures' lights, the specular.",
+   "A second level only after Negotiations is approved."
+  ]
  },
  "groups": [
   {
