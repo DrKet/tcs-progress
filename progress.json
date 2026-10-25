@@ -1,11 +1,11 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-24T20:54:15Z",
-  "built": "2026-10-24T20:54:16Z",
+  "exported": "2026-10-25T02:00:06Z",
+  "built": "2026-10-25T02:00:07Z",
   "git": {
-   "sha": "107daac",
-   "branch": "pc-accuracy"
+   "sha": "a1ac6db",
+   "branch": "pc-accuracy-map"
   },
   "ghidra_function_count": 9246,
   "external_count": 194,
@@ -34,20 +34,20 @@
   },
   "by_status": {
    "unmapped": {
-    "count": 295,
-    "bytes": 144352
+    "count": 294,
+    "bytes": 144306
    },
    "triaged": {
-    "count": 3065,
-    "bytes": 736881
+    "count": 3063,
+    "bytes": 736599
    },
    "mapped": {
     "count": 2561,
-    "bytes": 653774
+    "bytes": 651327
    },
    "ported": {
-    "count": 1642,
-    "bytes": 610780
+    "count": 1645,
+    "bytes": 613555
    },
    "confirmed": {
     "count": 466,
@@ -59,16 +59,16 @@
    }
   },
   "mapped": {
-   "count": 4669,
-   "bytes": 1532765,
-   "pct_count": 58.15170008718396,
-   "pct_bytes": 63.49487447794074
+   "count": 4672,
+   "bytes": 1533093,
+   "pct_count": 58.18906464067754,
+   "pct_bytes": 63.50846189599163
   },
   "ported": {
-   "count": 2108,
-   "bytes": 878991,
-   "pct_count": 26.254826254826256,
-   "pct_bytes": 36.412250548674855
+   "count": 2111,
+   "bytes": 881766,
+   "pct_count": 26.29219080831984,
+   "pct_bytes": 36.527205076391944
   },
   "confirmed": {
    "count": 466,
@@ -77,10 +77,10 @@
    "pct_bytes": 11.110655435505747
   },
   "triaged": {
-   "count": 3065,
-   "bytes": 736881,
-   "pct_count": 38.17411881928011,
-   "pct_bytes": 30.525335977908846
+   "count": 3063,
+   "bytes": 736599,
+   "pct_count": 38.149209116951056,
+   "pct_bytes": 30.51365411238949
   },
   "engine": {
    "count": 1023,
@@ -91,77 +91,77 @@
  },
  "summary_negotiations": {
   "total": {
-   "count": 6243,
-   "bytes": 1949283
+   "count": 6258,
+   "bytes": 1954461
   },
   "scope": {
-   "count": 6205,
-   "bytes": 1940946
+   "count": 6219,
+   "bytes": 1946117
   },
   "by_status": {
    "unmapped": {
-    "count": 225,
-    "bytes": 88862
+    "count": 224,
+    "bytes": 88816
    },
    "triaged": {
-    "count": 1522,
-    "bytes": 424338
+    "count": 1530,
+    "bytes": 428407
    },
    "mapped": {
     "count": 2382,
-    "bytes": 583166
+    "bytes": 580719
    },
    "ported": {
-    "count": 1616,
-    "bytes": 599450
+    "count": 1623,
+    "bytes": 603045
    },
    "confirmed": {
     "count": 460,
     "bytes": 245130
    },
    "engine": {
-    "count": 38,
-    "bytes": 8337
+    "count": 39,
+    "bytes": 8344
    }
   },
   "mapped": {
-   "count": 4458,
-   "bytes": 1427746,
-   "pct_count": 71.84528605962933,
-   "pct_bytes": 73.55928500844433
+   "count": 4465,
+   "bytes": 1428894,
+   "pct_count": 71.79610869914778,
+   "pct_bytes": 73.42282093008797
   },
   "ported": {
-   "count": 2076,
-   "bytes": 844580,
-   "pct_count": 33.45688960515713,
-   "pct_bytes": 43.513832945378184
+   "count": 2083,
+   "bytes": 848175,
+   "pct_count": 33.49413088921048,
+   "pct_bytes": 43.582939771863664
   },
   "confirmed": {
    "count": 460,
    "bytes": 245130,
-   "pct_count": 7.413376309427881,
-   "pct_bytes": 12.629408546141933
+   "pct_count": 7.396687570348931,
+   "pct_bytes": 12.595851123031144
   },
   "triaged": {
-   "count": 1522,
-   "bytes": 424338,
-   "pct_count": 24.528605962933117,
-   "pct_bytes": 21.862432030566538
+   "count": 1530,
+   "bytes": 428407,
+   "pct_count": 24.602026049204053,
+   "pct_bytes": 22.013424681044356
   },
   "engine": {
-   "count": 38,
-   "bytes": 8337,
-   "pct_count": 0.608681723530354,
-   "pct_bytes": 0.42769572196546113
+   "count": 39,
+   "bytes": 8344,
+   "pct_count": 0.62320230105465,
+   "pct_bytes": 0.42692077253012467
   }
  },
  "negotiations_roots": {
   "roots": 457,
   "closure": 1481,
-  "map_functions": 6123,
-  "map_rows": 8356,
+  "map_functions": 6138,
+  "map_rows": 8372,
   "map_rows_excluded": 399,
-  "functions": 6243,
+  "functions": 6258,
   "has_callees": true
  },
  "levels": {
@@ -1013,9 +1013,7 @@
   "docs/map/cutscenes.md: 0x00502c30 is listed but still named T_Scene_CallNodeCbC (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x005036a0 is listed but still named T_Scene_LinkEventsToNodes (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x00550830 is listed but still named T_Math_CamDistanceFalloff (a T_ triage guess) in Ghidra",
-  "docs/map/cutscenes.md: 0x00595660 is listed but still named T_Render_DrawModelWithLights (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x005958b0 is listed but still named T_Render_SetDefaultView (a T_ triage guess) in Ghidra",
-  "docs/map/cutscenes.md: 0x00595910 is listed but still named T_Render_DrawModelNoDepth (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x0057ed70 is listed but still named T_Cutscene_RunQueue (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x0057eec0 is listed but still named T_Cutscene_EndOnMainLoop (a T_ triage guess) in Ghidra",
   "docs/map/cutscenes.md: 0x00508340 is listed but still named T_Scene_UpdateInstance (a T_ triage guess) in Ghidra",
@@ -1167,7 +1165,6 @@
   "docs/map/enemy-partner-ai.md: 0x006e44b0 is listed but still named FUN_006e44b0 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x006e5700 is listed but still named FUN_006e5700 in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x005d1b20 is listed but still named T_TexAnim_ResolveLabels (a T_ triage guess) in Ghidra",
-  "docs/map/enemy-partner-ai.md: 0x005dfbd0 is listed but still named T_Mat_UpdateUvAnimAll (a T_ triage guess) in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x0057fc30 is listed but still named T_Math_ReflectVector (a T_ triage guess) in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x00580150 is listed but still named T_Bolt_AddTypeRecord (a T_ triage guess) in Ghidra",
   "docs/map/enemy-partner-ai.md: 0x005d1d00 is listed but still named T_TexAnim_CompareOp (a T_ triage guess) in Ghidra",
@@ -1335,7 +1332,6 @@
   "docs/map/level-logic.md: 0x00564ac0 is listed but still named T_Scene_AdvanceBallAnims (a T_ triage guess) in Ghidra",
   "docs/map/level-logic.md: 0x0057cf70 is listed but still named T_Nop_ReturnZero57CF70 (a T_ triage guess) in Ghidra",
   "docs/map/level-logic.md: 0x005d4770 is listed but still named T_Level_SetGlobal973910 (a T_ triage guess) in Ghidra",
-  "docs/map/level-logic.md: 0x005e4e00 is listed but still named T_Render_SetLevelParam (a T_ triage guess) in Ghidra",
   "docs/map/level-logic.md: 0x005e4ea0 is listed but still named T_Render_SetLevelPtr (a T_ triage guess) in Ghidra",
   "docs/map/level-logic.md: 0x005f9530 is listed but still named T_Render_ResetFrameFlags (a T_ triage guess) in Ghidra",
   "docs/map/level-logic.md: 0x005f9940 is listed but still named T_Wrap_CallFar743940 (a T_ triage guess) in Ghidra",
@@ -1346,6 +1342,23 @@
   "docs/map/lighting-stage.md: 0x0060aff0 is listed but still named T_Render_BeginFrame (a T_ triage guess) in Ghidra",
   "docs/map/lighting-stage.md: 0x006026a0 is listed but still named T_Scene_ReleaseDlistBuffers (a T_ triage guess) in Ghidra",
   "docs/map/lighting-stage.md: 0x0062f330 is listed but still named T_Anim_ApplyRootMotionDelta (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x005dfbd0 is listed but still named T_Mat_UpdateUvAnimAll (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x00601330 is listed but still named T_Mat_UpdateUvScrollPerFrame (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006012a0 is listed but still named T_Mat_AdvanceTimeResetUvScroll (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x00601210 is listed but still named T_Mat_SetUvScrollEntry (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x005e4e00 is listed but still named T_Render_SetLevelParam (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x005ded80 is listed but still named T_DList_Register (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x004c6c20 is listed but still named T_Shop_DrawCallback (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x00402910 is listed but still named T_GizUseSpot_LoadFromFile (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x005da640 is listed but still named T_Scene_LoadObjectEntryBlock (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006379f0 is listed but still named T_LightEd_CompareLight (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006382a0 is listed but still named T_LightEd_UpdateWidgetVisibility (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006d38f0 is listed but still named T_Input_InsertMappingMru (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006d43e0 is listed but still named T_Input_FindDeviceMapping (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006d6de0 is listed but still named T_Input_WriteDeviceMappingTextFile (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006d9b80 is listed but still named T_Input_FindAndApplyDeviceMapping (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006d9bd0 is listed but still named T_Input_SetupKeyboardMouseDevices (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x006da970 is listed but still named T_Input_ReassignPlayerPads (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x006de0e0 is listed but still named T_Platform_WinMainBody (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x006dcf30 is listed but still named T_Platform_ParseCommandLine (a T_ triage guess) in Ghidra",
   "docs/map/menus-save.md: 0x00401100 is listed but still named T_Game_InitStartupFlags (a T_ triage guess) in Ghidra",
@@ -2203,7 +2216,6 @@
   "docs/map/scene-draw.md: 0x005ea6a0 is listed but still named FUN_005ea6a0 in Ghidra",
   "docs/map/scene-draw.md: 0x005f27a0 is listed but still named FUN_005f27a0 in Ghidra",
   "docs/map/scene-draw.md: 0x005f3440 is listed but still named FUN_005f3440 in Ghidra",
-  "docs/map/scene-draw.md: 0x005fd0d0 is listed but still named FUN_005fd0d0 in Ghidra",
   "docs/map/scene-draw.md: 0x005fd220 is listed but still named FUN_005fd220 in Ghidra",
   "docs/map/scene-draw.md: 0x00603530 is listed but still named FUN_00603530 in Ghidra",
   "docs/map/scene-draw.md: 0x00603960 is listed but still named FUN_00603960 in Ghidra",

@@ -6,7 +6,7 @@ Live page: https://drket.github.io/tcs-progress/
 
 **1 of 36 story chapters plays end to end:** Negotiations (Episode I, chapter 1; Story and Free Play).
 
-Of the code that level runs, **43.5% is ported** from the exe and 73.6% mapped, by bytes (12.6% confirmed against the real game). Of the whole exe: 36.4% ported.
+Of the code that level runs, **43.6% is ported** from the exe and 73.4% mapped, by bytes (12.6% confirmed against the real game). Of the whole exe: 36.5% ported.
 
 ## What works today
 
@@ -37,4 +37,4 @@ The level's set is the code its data reaches through the exe's tables (the call 
 
 ![progress](progress.png)
 
-Generated 2026-10-24T20:54:16Z from private repo commit `107daac` by `tools/progress/publish.py`.
+Generated 2026-10-25T02:00:07Z from private repo commit `a1ac6db` by `tools/progress/publish.py`.
