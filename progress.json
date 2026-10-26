@@ -1,11 +1,11 @@
 {
  "meta": {
   "program": "LEGOStarWarsSaga.exe.unpacked.exe",
-  "exported": "2026-10-25T23:45:18Z",
-  "built": "2026-10-25T23:45:18Z",
+  "exported": "2026-10-26T19:02:38Z",
+  "built": "2026-10-26T19:02:39Z",
   "git": {
-   "sha": "f9de7dd",
-   "branch": "pc-accuracy"
+   "sha": "2384844",
+   "branch": "pc-accuracy-map"
   },
   "ghidra_function_count": 9246,
   "external_count": 194,
@@ -34,16 +34,16 @@
   },
   "by_status": {
    "unmapped": {
-    "count": 294,
-    "bytes": 144306
+    "count": 286,
+    "bytes": 142618
    },
    "triaged": {
     "count": 3061,
     "bytes": 736406
    },
    "mapped": {
-    "count": 2548,
-    "bytes": 645680
+    "count": 2556,
+    "bytes": 647368
    },
    "ported": {
     "count": 1661,
@@ -59,10 +59,10 @@
    }
   },
   "mapped": {
-   "count": 4675,
-   "bytes": 1533317,
-   "pct_count": 58.21917808219178,
-   "pct_bytes": 63.51692543875819
+   "count": 4683,
+   "bytes": 1535005,
+   "pct_count": 58.318804483188046,
+   "pct_bytes": 63.58685003369885
   },
   "ported": {
    "count": 2127,
@@ -91,25 +91,25 @@
  },
  "summary_negotiations": {
   "total": {
-   "count": 6258,
-   "bytes": 1954461
+   "count": 6263,
+   "bytes": 1955867
   },
   "scope": {
-   "count": 6220,
-   "bytes": 1946148
+   "count": 6222,
+   "bytes": 1947058
   },
   "by_status": {
    "unmapped": {
-    "count": 224,
-    "bytes": 88816
+    "count": 217,
+    "bytes": 87494
    },
    "triaged": {
-    "count": 1528,
-    "bytes": 428214
+    "count": 1529,
+    "bytes": 428758
    },
    "mapped": {
-    "count": 2369,
-    "bytes": 575072
+    "count": 2377,
+    "bytes": 576760
    },
    "ported": {
     "count": 1639,
@@ -120,48 +120,48 @@
     "bytes": 245130
    },
    "engine": {
-    "count": 38,
-    "bytes": 8313
+    "count": 41,
+    "bytes": 8809
    }
   },
   "mapped": {
-   "count": 4468,
-   "bytes": 1429118,
-   "pct_count": 71.83279742765274,
-   "pct_bytes": 73.43316130119601
+   "count": 4476,
+   "bytes": 1430806,
+   "pct_count": 71.93828351012536,
+   "pct_bytes": 73.48553561321748
   },
   "ported": {
    "count": 2099,
    "bytes": 854046,
-   "pct_count": 33.745980707395496,
-   "pct_bytes": 43.88391838647421
+   "pct_count": 33.73513339762135,
+   "pct_bytes": 43.86340828059565
   },
   "confirmed": {
    "count": 460,
    "bytes": 245130,
-   "pct_count": 7.395498392282958,
-   "pct_bytes": 12.595650484957979
+   "pct_count": 7.39312118289939,
+   "pct_bytes": 12.589763633132655
   },
   "triaged": {
-   "count": 1528,
-   "bytes": 428214,
-   "pct_count": 24.565916398713828,
-   "pct_bytes": 22.003157005530927
+   "count": 1529,
+   "bytes": 428758,
+   "pct_count": 24.57409193185471,
+   "pct_bytes": 22.020812939316652
   },
   "engine": {
-   "count": 38,
-   "bytes": 8313,
-   "pct_count": 0.6072227548737615,
-   "pct_bytes": 0.4253346574835722
+   "count": 41,
+   "bytes": 8809,
+   "pct_count": 0.6546383522273671,
+   "pct_bytes": 0.45038849778640366
   }
  },
  "negotiations_roots": {
   "roots": 457,
   "closure": 1481,
-  "map_functions": 6138,
-  "map_rows": 8372,
+  "map_functions": 6147,
+  "map_rows": 8381,
   "map_rows_excluded": 399,
-  "functions": 6258,
+  "functions": 6263,
   "has_callees": true
  },
  "levels": {
@@ -751,7 +751,6 @@
   "docs/map/animation.md: 0x004700f0 is listed but still named T_Mat_RotateInPlaceX16 (a T_ triage guess) in Ghidra",
   "docs/map/blowup-debris.md: 0x0063ae40 is listed but still named FUN_0063ae40 in Ghidra",
   "docs/map/blowup-debris.md: 0x005d6430 is listed but still named FUN_005d6430 in Ghidra",
-  "docs/map/blowup-debris.md: 0x005e0bd0 is listed but still named FUN_005e0bd0 in Ghidra",
   "docs/map/blowup-debris.md: 0x00404a50 is listed but still named FUN_00404a50 in Ghidra",
   "docs/map/blowup-debris.md: 0x004058a0 is listed but still named FUN_004058a0 in Ghidra",
   "docs/map/blowup-debris.md: 0x00425fa0 is listed but still named FUN_00425fa0 in Ghidra",
@@ -817,7 +816,6 @@
   "docs/map/blowup-debris.md: 0x005d8950 is listed but still named FUN_005d8950 in Ghidra",
   "docs/map/blowup-debris.md: 0x005ec620 is listed but still named FUN_005ec620 in Ghidra",
   "docs/map/blowup-debris.md: 0x005f5e30 is listed but still named FUN_005f5e30 in Ghidra",
-  "docs/map/blowup-debris.md: 0x005fa330 is listed but still named FUN_005fa330 in Ghidra",
   "docs/map/blowup-debris.md: 0x00603d20 is listed but still named FUN_00603d20 in Ghidra",
   "docs/map/blowup-debris.md: 0x0065f140 is listed but still named FUN_0065f140 in Ghidra",
   "docs/map/blowup-debris.md: 0x006871c0 is listed but still named FUN_006871c0 in Ghidra",
@@ -1348,6 +1346,7 @@
   "docs/map/lighting-stage.md: 0x00601210 is listed but still named T_Mat_SetUvScrollEntry (a T_ triage guess) in Ghidra",
   "docs/map/lighting-stage.md: 0x005e4e00 is listed but still named T_Render_SetLevelParam (a T_ triage guess) in Ghidra",
   "docs/map/lighting-stage.md: 0x005ded80 is listed but still named T_DList_Register (a T_ triage guess) in Ghidra",
+  "docs/map/lighting-stage.md: 0x00742010 is listed but still named FUN_00742010 in Ghidra",
   "docs/map/lighting-stage.md: 0x004c6c20 is listed but still named T_Shop_DrawCallback (a T_ triage guess) in Ghidra",
   "docs/map/lighting-stage.md: 0x00402910 is listed but still named T_GizUseSpot_LoadFromFile (a T_ triage guess) in Ghidra",
   "docs/map/lighting-stage.md: 0x005da640 is listed but still named T_Scene_LoadObjectEntryBlock (a T_ triage guess) in Ghidra",
@@ -1825,6 +1824,11 @@
   "docs/map/render-draw.md: 0x005de060 is listed but still named T_Render_SortedListInsert (a T_ triage guess) in Ghidra",
   "docs/map/render-draw.md: 0x005ded80 is listed but still named T_DList_Register (a T_ triage guess) in Ghidra",
   "docs/map/render-draw.md: 0x005f8f80 is listed but still named T_Render_LoadEnvMapTextures (a T_ triage guess) in Ghidra",
+  "docs/map/render-draw.md: 0x005edbb0 is listed but still named T_Cam_BuildBillboardFromView (a T_ triage guess) in Ghidra",
+  "docs/map/render-draw.md: 0x005edd10 is listed but still named T_Cam_BuildMatrixFromForward (a T_ triage guess) in Ghidra",
+  "docs/map/render-draw.md: 0x006d3150 is listed but still named T_Gfx_DetectGpuClass (a T_ triage guess) in Ghidra",
+  "docs/map/render-draw.md: 0x00603ad0 is listed but still named T_Dlist_SetClamped01 (a T_ triage guess) in Ghidra",
+  "docs/map/render-draw.md: 0x00603b10 is listed but still named T_Dlist_SetFloat38 (a T_ triage guess) in Ghidra",
   "docs/map/render-draw.md: 0x00595110 is listed but still named T_Render_SetViewVectors (a T_ triage guess) in Ghidra",
   "docs/map/render-draw.md: 0x005b3dc0 is listed but still named T_Math_Vec4_Add (a T_ triage guess) in Ghidra",
   "docs/map/render-draw.md: 0x005b59a0 is listed but still named T_Math_Mat4_Transpose (a T_ triage guess) in Ghidra",
@@ -2097,8 +2101,6 @@
   "docs/map/render-scene.md: 0x005af720 is listed but still named T_GizShadowEditor_Load (a T_ triage guess) in Ghidra",
   "docs/map/render-scene.md: 0x005af560 is listed but still named T_Render_AllocShadowParams (a T_ triage guess) in Ghidra",
   "docs/map/saber-combat.md: 0x00580790 is listed but still named FUN_00580790 in Ghidra",
-  "docs/map/saber-combat.md: 0x005d4690 is listed but still named FUN_005d4690 in Ghidra",
-  "docs/map/saber-combat.md: 0x005d46b0 is listed but still named FUN_005d46b0 in Ghidra",
   "docs/map/saber-combat.md: 0x005c6cc0 is listed but still named FUN_005c6cc0 in Ghidra",
   "docs/map/saber-combat.md: 0x005f5d90 is listed but still named FUN_005f5d90 in Ghidra",
   "docs/map/saber-combat.md: 0x004a8980 is listed but still named FUN_004a8980 in Ghidra",
@@ -2185,10 +2187,8 @@
   "docs/map/saber-combat.md: 0x006501a0 is listed but still named T_Mat_RotateZInPlace16 (a T_ triage guess) in Ghidra",
   "docs/map/saber-combat.md: 0x004a5b00 is listed but still named T_JangoRocket_PartTumble (a T_ triage guess) in Ghidra",
   "docs/map/scene-draw.md: 0x005c7050 is listed but still named FUN_005c7050 in Ghidra",
-  "docs/map/scene-draw.md: 0x005e0200 is listed but still named FUN_005e0200 in Ghidra",
   "docs/map/scene-draw.md: 0x005e02b0 is listed but still named FUN_005e02b0 in Ghidra",
   "docs/map/scene-draw.md: 0x005e0390 is listed but still named FUN_005e0390 in Ghidra",
-  "docs/map/scene-draw.md: 0x005e0490 is listed but still named FUN_005e0490 in Ghidra",
   "docs/map/scene-draw.md: 0x00402eb0 is listed but still named FUN_00402eb0 in Ghidra",
   "docs/map/scene-draw.md: 0x00478450 is listed but still named FUN_00478450 in Ghidra",
   "docs/map/scene-draw.md: 0x00489da0 is listed but still named FUN_00489da0 in Ghidra",
@@ -2212,7 +2212,6 @@
   "docs/map/scene-draw.md: 0x005c12f0 is listed but still named FUN_005c12f0 in Ghidra",
   "docs/map/scene-draw.md: 0x005c60a0 is listed but still named FUN_005c60a0 in Ghidra",
   "docs/map/scene-draw.md: 0x005c6dc0 is listed but still named FUN_005c6dc0 in Ghidra",
-  "docs/map/scene-draw.md: 0x005e0530 is listed but still named FUN_005e0530 in Ghidra",
   "docs/map/scene-draw.md: 0x005ea6a0 is listed but still named FUN_005ea6a0 in Ghidra",
   "docs/map/scene-draw.md: 0x005f27a0 is listed but still named FUN_005f27a0 in Ghidra",
   "docs/map/scene-draw.md: 0x005f3440 is listed but still named FUN_005f3440 in Ghidra",
